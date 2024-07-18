@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .section-0 {
+        @apply 
+    }
+
+    .section-1 {
+      @apply flex flex-col px-4 m-auto gap-8 lg:w-2/3 lg:px-0;
+    }
+
+    .text-undl {
+        @apply underline decoration-wavy underline-offset-4 decoration-2;
+    }
+
+    .button {
+        @apply py-3 px-5 bg-cyan-50 text-cyan-700 rounded-full border-2 border-cyan-50; 
+    }
+
+    .button-hover {
+        @apply hover:border-2 hover:border-cyan-700 hover:text-cyan-900;
+    }
+  }
