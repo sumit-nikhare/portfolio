@@ -8,7 +8,7 @@
     }
 
     .section-1 {
-      @apply flex flex-col px-4 m-auto gap-8 lg:w-2/3 lg:px-0;
+      @apply flex flex-col px-3 m-auto gap-8 lg:w-2/3 lg:px-0;
     }
 
     .text-undl {
@@ -21,5 +21,9 @@
 
     .button-hover {
         @apply hover:border-2 hover:border-cyan-700 hover:text-cyan-900;
+    }
+
+    .my-transi {
+        @apply transition ease-in-out delay-75 duration-300;
     }
   }

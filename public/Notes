@@ -4,6 +4,9 @@ https://www.chenkatherine.com/feather
 https://chofichang.com/rightover-turning-surplus-into-sharing-2
 https://simonpan.com/work/amazon-prime-music/
 
+npx tailwindcss -i ./src/input.css -o ./public/output.css --watch
+
+
 
 <!-- chip -->
 Pending things
@@ -11,3 +14,14 @@ Pending things
 - Job Role
 - Duration of different Programs
 - 
+
+<!-- gok -->
+- Inventory
+- opd
+- people registration
+- outreach activities
+
+<!-- gom -->
+- dhs
+- profile(user & facility)
+- login/punch-in
