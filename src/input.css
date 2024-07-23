@@ -3,8 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-    .section-0 {
-        @apply 
+    .page-header {
+        @apply text-3xl font-semibold;
+    }
+
+    .section-header {
+        @apply text-3xl text-cyan-700 font-semibold;
+    }
+
+    .section-sub-header {
+        @apply text-xl;
+    }
+
+    .body-text {
+        @apply text-neutral-500;
     }
 
     .section-1 {
@@ -25,5 +37,18 @@
 
     .my-transi {
         @apply transition ease-in-out delay-75 duration-300;
+    }
+
+    /* Highlight a subsection and also number in it. */
+    .highlight-1 {
+        @apply p-4 border border-cyan-700 rounded-2xl;
+    }
+
+    .highlight-number {
+        @apply text-neutral-300 text-6xl mb-6 font-bold;
+    }
+
+    .grid-section {
+        @apply grid grid-cols-1 gap-8 lg:grid-cols-2;
     }
   }
