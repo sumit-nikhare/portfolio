@@ -20,7 +20,7 @@
     }
 
     .section-1 {
-      @apply flex flex-col px-3 mx-auto gap-8 lg:w-2/3 lg:px-0 h-auto;
+      @apply flex flex-col px-3 mx-auto gap-8 lg:w-2/3 lg:px-0;
     }
 
     .text-undl {
