@@ -579,8 +579,10 @@ video {
 }
 
 .section-1 {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  height: auto;
   flex-direction: column;
   gap: 2rem;
   padding-left: 0.75rem;
@@ -663,6 +665,10 @@ video {
   .grid-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+.visible {
+  visibility: visible;
 }
 
 .order-1 {
@@ -1005,6 +1011,10 @@ video {
 
 .outline-sky-500 {
   outline-color: #0ea5e9;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:border-cyan-700:hover {

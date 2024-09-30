@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARP Design System</title>
+
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="my-3 mx-0">
+
+    <div class="flex flex-col">
+        
+        <!-- Hero -->
+        <div class="py-8">
+            <div class="section-1 text-center">
+                <p class="page-header">TARP Design System</p>
+
+                <p class="body-text lg:w-2/3 lg:mx-auto">TARP Component Library was designed as a part of startup to create aglie software in Permute Solutions Pvt. Ltd. Few components are shown below to demonstrate the UI perspective of TARP. Tarp uses the grid system to create complete pages design, so all the components are created accordingly.</p>
+
+                <img src="../assets/chip/chip cover.png" alt="hero image" class="rounded-2xl">
+            </div>
+        </div>
+
+        <!-- Intro -->
+        <div class="py-8">
+            <div class="section-1">
+                <div class="grid grid-cols-1 gap-6">
+                    <p class="section-sub-header">Problem Statement</p>
+                    <p class="body-text">The current system for channel partners (CPs) to manage property listings, client interactions, and commissions faces usability challenges. Complex workflows, a cumbersome CRM interface, and confusing commission tracking reduce CP efficiency. Additionally, offers and the Seal of Trust, which are essential for boosting sales and client credibility, are not easily accessible. A UI/UX redesign is needed to simplify navigation, improve CRM and CM usability, and enhance the visibility of key features, empowering CPs to manage clients and close deals more effectively.</p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-6">
+                    <span class="section-sub-header">Role</span>
+                    <p class="body-text">UX Researcher, </p>
+                </div>
+
+                <div class="grid grid-cols-1 gap-6">
+                    <p class="section-sub-header">Duration</p>
+                    <p class="body-text">July/22 - Jan/23 (4 Months)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Objectives -->
+        <div class="py-8">
+            <div class="section-1">
+                <p class="section-header">Flows and UI Designs</p>
+                
+                <!-- Module 1 - Channel Partner(CP)/Organisation Onboarding -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">Module 1 - Channel Partner(CP)/Organisation Onboarding</p>
+                    <p class="body-text">First time user will onboard by using number and OTP following with the filling personal details and then continues by choosing between he owns an organisation or he is individual CP. CP also has to fll his organisation details like RERA details.</p>
+
+                    <img src="../assets/anarock/onboarding.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+                <!-- Module 2 - Digital Visiting Card -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">Module 2 - Digital Visiting Card</p>
+                    <p class="body-text">Digital Visiting Card is a CP's visiting card which he can share with the potential clients to let them know that he is with the organisation or he has official RERA ID. Here user can create the visiting card by filling all the necessary details and then choose of the templete to select his visiting card. User can also upload the existing visiting card by uploading it.</p>
+
+                    <img src="../assets/anarock/DVC.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+                <!-- Module 3 - Project - Filters, Listing, Project Details -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">Module 3 - Project - Filters, Listing, Project Details</p>
+                    <p class="body-text">CPs can view the Project Listing to view projects toview project details and offers that comes along with projects which they can avail after selling the project. Users can also filter the projects according to their need and also sort the listing to view accordingly. In project details they can share the project details with the client for them to understand in & out of the project.</p>
+
+                    <img src="../assets/anarock/Project Listing.png" alt="hero image" class="rounded-2xl">
+                    <img src="../assets/anarock/Project details.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+                <!-- Module 4 - Homepage, Favorite Projects, Side Navigation -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">When the user opens the app he sees Homepage where he can see the nudges which gives him immediate actionables, advetisement section which will help marketing team to market new projects,app features, etc. , Then he gets summary of his customers at differnent stages in CRM,and then finally he sees all the finance summary. User can also view the favorite projects from the top bar of the app. USer also get the more options from side naviagtion.</p>
+
+                    <img src="../assets/anarock/Homepage.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+                <!-- Module 5 - Profile -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">Module 5 - Profile</p>
+                    <p class="body-text">Profile contains all the details about the CP which he can edit at any given time. CP can change Profile Pictue from here and verify his email.</p>
+
+                    <img src="../assets/anarock/profile.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+                <!-- Module 6 - My Team -->
+                <div class="grid grid-cols-1 gap-2">
+                    <p class="section-sub-header">Module 6 - My Team</p>
+                    <p class="body-text">My Team in bottom navigation will only be visible to organisation profile. It will contain all the team members. Team owner and admin can edit the details of team members.</p>
+
+                    <img src="../assets/anarock/My Team.png" alt="hero image" class="rounded-2xl">
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "horizontal",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: false,
+            // releaseOnEdges: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
